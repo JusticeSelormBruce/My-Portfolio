@@ -1,0 +1,104 @@
+
+.small{
+  font-size: smaller;
+}
+
+.html{
+  height:5px;width:98%;
+  background-color: red;
+  margin-top: 6px;
+}
+.laravel
+{
+  height:5px;width:90%;
+  background-color:#6002EE;
+  margin-top: 6px;
+}
+.angular
+{
+  height:5px;width:85%;
+  background-color:yellow;
+  margin-top: 6px;
+}
+.bootstrap
+{
+  height:5px;width:93%;
+  background-color:#AB47BC;
+  margin-top: 6px;
+}
+.css
+{
+  height:5px;width:92%;
+  background-color:green;
+  margin-top: 6px;
+}
+.angular_material
+{
+  height:5px;width:85%;
+  background-color:#283593;
+  margin-top: 6px;
+}
+.angular_material
+{
+  height:5px;width:85%;
+  background-color:#283593;
+  margin-top: 6px;
+}
+.mysql
+{
+  height:5px;width:80%;
+  background-color:#29B6F6;
+  margin-top: 6px;
+}
+.mango_db
+{
+  height:5px;width:80%;
+  background-color:#64FFDA;
+  margin-top: 6px;
+}
+.firebase
+{
+  height:5px;width:80%;
+  background-color:#EEFF41;
+  margin-top: 6px;
+}
+.semantic_ui
+{
+  height:5px;width:80%;
+  background-color:#546E7A;
+  margin-top: 6px;
+}
+.materialize_css
+{
+  height:5px;width:80%;
+  background-color:#FF3D00;
+  margin-top: 6px;
+}
+.java
+{
+  height:5px;width:70%;
+  background-color:#F44336;
+  margin-top: 6px;
+}
+.c_sharp
+{
+  height:5px;width:70%;
+  background-color:#00E676;
+  margin-top: 6px;
+}
+.python
+{
+  height:5px;width:65%;
+  background-color:#212121;
+  margin-top: 6px;
+}
+table{
+width: 100%;
+}
+th{
+  font-weight: normal!important;
+}
+
+hr{
+  margin: 0.05rem;
+}

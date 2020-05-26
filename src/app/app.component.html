@@ -1,0 +1,96 @@
+<div class="jumbotron shadow-sm  pt-3">
+  <div class="container">
+    <span>
+      <h2>Justice Selorm Bruce</h2>
+    </span>
+    <span fxFlex></span>
+    <div fxHide.gt-sm="true" fxShow.sm="true" fxShow.xs="true">
+      <mat-menu #appMenu="matMenu">
+        <a href="" mat-menu-item>Home</a>
+        <a href="#expirience" mat-menu-item>Expirience</a>
+        <a href="#projects" mat-menu-item>Projects</a>
+        <a href="#skills" mat-menu-item>Skills</a>
+        <a href="#reporsitory" mat-menu-item>Work Rpository</a>
+        <a href="#contacts" mat-menu-item>Contact</a>
+      </mat-menu>
+
+      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+        <mat-icon>dehaze</mat-icon>
+      </button>
+    </div>
+
+    <div fxLayout="row" fxLayoutGap="35px" fxHide.xs="true" fxHide.sm="true">
+      <a href="">Home</a>
+      <a href="#expirience">Expirience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#reporsitory">Work Rpository</a>
+      <a href="#contacts">Contact</a>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayoutGap="30px" fxLayoutAlign="center center">
+    <img mat-card-image [src]="avatar" />
+    <h1 style="color: black !important;">Hello there!</h1>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quos est
+        pariatur iure ut tempora nesciunt, omnis sit aperiam dolor officia
+        repellat adipisci sint? Itaque provident aliquid a libero. Numquam
+        ratione illo saepe sed autem enim quod dignissimos necessitatibus sunt
+        quo quisquam delectus quam vitae laudantium fugit sit, eveniet
+        inventore, possimus facere deleniti iure non omnis similique. Sed et
+        autem quas quaerat blanditiis optio, omnis sint. Esse necessitatibus
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row" id="expirience">
+    <app-work></app-work>
+  </div>
+
+  <div class="row" id="projects">
+    <app-projects></app-projects>
+  </div>
+  <div class="row pb-5" id="skills">
+    <app-skills></app-skills>
+  </div>
+</div>
+<div class="bg-dark">
+  <div class="jumbotron  bg-dark py-2" id="reporsitory">
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <div fxFlex.lt-sm="100" fxFlex.gt-sm="50">
+        <app-repository></app-repository>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron py-0" id="contacts" style="background-color: black !important;">
+    <div class="container">
+      <div class="row text-light pt-lg-5 pt-md=5 pt-sm-1">
+        <div class="col-lg-6 col-md-6 col-sm-12 pb-5">
+          <app-social></app-social>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="row">
+            <div class="mx-auto">
+              <span class="text-light pb-2 text-uppercase">Contact me!</span>
+            </div>
+          </div>
+          <div class="row">
+            <span class="mx-auto">
+              <app-contact></app-contact>
+            </span>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

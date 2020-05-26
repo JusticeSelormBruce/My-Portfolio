@@ -1,0 +1,117 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  height: 100%;
+  background-color: white;
+}
+body {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.tool-bar-bgcolor {
+  background-color: #040d79;
+  height: 3vh !important;
+  box-shadow: 10 12px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.tool-bar-bgcolor-main {
+  background-color: #0c1bdf;
+  height: 5vh !important;
+}
+
+.style-initials {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-style: normal;
+}
+
+@media only screen and (min-width: 768px) {
+  .message-padding {
+    padding-left: 40px;
+  }
+  .pt-5 {
+    padding-top: 100px;
+  }
+  .bio-bg-show {
+    display: none;
+  }
+  .h {
+    height: 50vh;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  body,
+  html {
+    font-size: smaller !important;
+  }
+  h1,
+  h2 {
+    font-size: small !important;
+  }
+
+  .message-padding {
+    padding-left: 5px;
+  }
+  .img1 {
+    display: none !important;
+  }
+  .bio-bg-show {
+    display: flex;
+    height: 30vh !important;
+  }
+
+  .style-work-image {
+    width: 100vw !important;
+  }
+  .hide {
+    display: none !important;
+  }
+  .h {
+    height: auto;
+  }
+  ng-template{
+    font-size: small!important;
+  }
+  .icon{
+    width: 20px!important;
+    height: 20px!important;
+  }
+
+
+}
+
+@media only screen and (min-width: 600px) {
+  .message-padding {
+    padding-left: 20px;
+  }
+  .bio-bg-show {
+    display: none;
+  }
+  .h {
+    height: 53vh;
+  }
+
+}
+
+.upper {
+  padding-top: 10px;
+}
+
+.upperDesign {
+  border-top: 10px solid rgb(34, 34, 224);
+}
+
+.lowerDesign {
+  border-bottom: 10px solid rgb(34, 34, 224);
+}
+
+p {
+  text-align: justify;
+}
+
+h1 {
+  color: #0c1bdf;
+}

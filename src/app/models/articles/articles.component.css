@@ -1,0 +1,10 @@
+
+
+.bg{
+  background-image: url("../../../assets/article.png");
+  background-size: cover!important;
+  background-repeat: no-repeat;
+  width: 90vw!important;
+  height:40vh!important
+}
+

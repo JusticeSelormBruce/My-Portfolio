@@ -1,0 +1,38 @@
+
+<div align="center">
+  <h1 class="heading" style="font-size: 13pt;">
+   Skills
+  </h1>
+</div>
+
+<div class="row no-gutters">
+  <div class="col-lg-6 col-md-6 col-sm-12 pt-lg-3 pt-md-3">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-0"></div>
+      <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">
+    <div fxFlexAlign.fxFlexAlign.gt-sm="center">
+      <img mat-card-image [src]="bg" class="style-work-image" />
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12">
+    <mat-tab-group >
+      <span style="padding-top: 5px;"></span>
+      <mat-tab label="Technical Skills">
+        <app-technologies></app-technologies>
+      </mat-tab>
+      <mat-tab label="Tools">
+    <app-tools></app-tools>
+      </mat-tab>
+      <mat-tab label="Soft Skills">
+       <div >
+        <app-soft-skills></app-soft-skills>
+       </div>
+      </mat-tab>
+
+    </mat-tab-group>
+  </div>
+</div>
+
+

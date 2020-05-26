@@ -1,0 +1,140 @@
+<div align="center">
+  <h1 class="heading" style="font-size: 13pt;">
+    Projects
+  </h1>
+</div>
+
+<div class="row no-gutters">
+  <div class="col-lg-6 col-md-6 col-sm-12" fxShow.lt-sm="true" fxHide.gt-sm="true">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-0"></div>
+      <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">
+        <div fxFlexAlign.fxFlexAlign.gt-sm="center">
+          <img mat-card-image [src]="bg" class="style-work-image" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 pt-lg-5 pt-md-5 pt-sm-0">
+    <p class="message-padding pt-lg-5 pt-md-4 pt-sm-1 mx-3">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum
+      dolor rem magni neque illo laudantium voluptate voluptates incidunt
+      ex? Quam eaque aliquam porro laboriosam quibusdam? Illo veritatis
+      maxime eum qui quibusdam error, numquam, tenetur ipsum facere porro
+      molestiae repudiandae similique earum. Cumque quam at nisi repudiandae
+      rem, hic ab sapiente, earum eum dolorum repellendus voluptatibus error
+      doloremque est vel. Odit molestias explicabo id expedita nemo eos
+      error nisi iste eligendi necessitatibus, ullam repudiandae perferendis
+      deserunt placeat illo rem quas.
+    </p>
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-12 hide" fxHide.lt-sm="true">
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-sm-0"></div>
+      <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">
+        <div fxFlexAlign.fxFlexAlign.gt-sm="center">
+          <img mat-card-image [src]="bg" class="style-work-image" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+<mat-card-content fxHide.gt-xs>
+  <mat-vertical-stepper [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Institutional</ng-template>
+
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Organizational</ng-template>
+
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Clients</ng-template>
+
+        <div>
+          <button mat-button matStepperNext>Next</button>
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Personal</ng-template>
+
+        <div>
+          <mat-card>
+            <mat-card-content>
+              UI and Design
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </form>
+    </mat-step>
+  </mat-vertical-stepper>
+</mat-card-content>
+
+
+<mat-card-content fxHide.xs="true">
+  <mat-horizontal-stepper [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Institutional</ng-template>
+
+        <div>
+
+          <p>All</p>
+
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Organizational</ng-template>
+
+        <div>
+
+          <p>Custom Software</p>
+
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="firstFormGroup">
+      <form [formGroup]="firstFormGroup">
+        <ng-template matStepLabel>Clients</ng-template>
+
+        <div>
+
+          <p>Mobile Apps</p>
+
+        </div>
+      </form>
+    </mat-step>
+    <mat-step [stepControl]="secondFormGroup">
+      <form [formGroup]="secondFormGroup">
+        <ng-template matStepLabel>Personal</ng-template>
+
+        <div>
+
+          <p>UI and Design</p>
+
+        </div>
+      </form>
+    </mat-step>
+  </mat-horizontal-stepper>
+</mat-card-content>
