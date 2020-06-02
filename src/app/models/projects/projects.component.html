@@ -72,7 +72,7 @@
         <ng-template matStepLabel>Clients</ng-template>
 
         <div>
-          <button mat-button matStepperNext>Next</button>
+        <app-client></app-client>
         </div>
       </form>
     </mat-step>
@@ -83,7 +83,20 @@
         <div>
           <mat-card>
             <mat-card-content>
-              UI and Design
+              <div class="row">
+                <div class="jumbotron w-100  pt-lg-5 pt-sm-4 pt-sm-0">
+                  <div class="row">
+                    <div class="mx-auto">
+
+                      <a [href]="gitHubLink">
+                        <h2 class="blue" title="follow link to github repo"> Github Repository</h2>
+                      </a>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </mat-card-content>
           </mat-card>
         </div>
@@ -115,7 +128,7 @@
         <ng-template matStepLabel>Clients</ng-template>
 
         <div>
-          <p>Mobile Apps</p>
+        <app-client></app-client>
         </div>
       </form>
     </mat-step>
@@ -123,8 +136,19 @@
       <form [formGroup]="secondFormGroup">
         <ng-template matStepLabel>Personal</ng-template>
 
-        <div>
-          <p>UI and Design</p>
+        <div class="row">
+          <div class="jumbotron w-100  pt-lg-5 pt-sm-4 pt-sm-0">
+            <div class="row">
+              <div class="mx-auto">
+
+                <a [href]="gitHubLink">
+                  <h2 class="blue" title="follow link to github repo"> Github Repository</h2>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
         </div>
       </form>
     </mat-step>

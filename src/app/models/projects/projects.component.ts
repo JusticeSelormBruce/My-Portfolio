@@ -12,6 +12,8 @@ export class ProjectsComponent implements OnInit {
   firstFormGroup: FormGroup;
   secondFormGroup: FormGroup;
   bg = "assets/folder.png";
+  gitHubLink="https://github.com/JusticeSelormBruce";
+  github_icon="assets/github.png";
   constructor(private _formBuilder: FormBuilder) { }
 
   ngOnInit() {

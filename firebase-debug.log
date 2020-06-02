@@ -1,0 +1,81 @@
+[debug] [2020-06-02T19:40:45.500Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T19:40:45.507Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-06-02T19:40:45.507Z] CLI Version:   8.2.0
+[debug] [2020-06-02T19:40:45.508Z] Platform:      win32
+[debug] [2020-06-02T19:40:45.508Z] Node Version:  v12.16.3
+[debug] [2020-06-02T19:40:45.510Z] Time:          Tue Jun 02 2020 19:40:45 GMT+0000 (Greenwich Mean Time)
+[debug] [2020-06-02T19:40:45.510Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T19:40:45.510Z] 
+[debug] [2020-06-02T19:40:45.545Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-02T19:40:45.547Z] > authorizing via signed-in user
+[debug] [2020-06-02T19:40:45.548Z] [iam] checking project justice-selorm-bruce-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-06-02T19:40:45.554Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-02T19:40:45.555Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-02T19:40:57.069Z] [iam] error while checking permissions, command may fail: FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-06-02T19:40:57.076Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-02T19:40:57.078Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-02T19:41:08.558Z] Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+[debug] [2020-06-02T19:41:08.583Z] FirebaseError: Authentication Error: Your credentials are no longer valid. Please run firebase login --reauth
+
+For CI servers and headless environments, generate a new token with firebase login:ci
+    at Object.<anonymous> (C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\lib\auth.js:23:32)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Object.<anonymous> (C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\login.js:20:14)
+    at Module._compile (internal/modules/cjs/loader.js:1133:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1153:10)
+    at Module.load (internal/modules/cjs/loader.js:977:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at loadCommand (C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js:5:19)
+    at module.exports (C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\index.js:84:20)
+[error] 
+[error] Error: Failed to get Firebase project justice-selorm-bruce-portfolio. Please make sure the project exists and your account has permission to access it.
+[debug] [2020-06-02T19:43:05.627Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T19:43:05.631Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-06-02T19:43:05.631Z] CLI Version:   8.2.0
+[debug] [2020-06-02T19:43:05.632Z] Platform:      win32
+[debug] [2020-06-02T19:43:05.632Z] Node Version:  v12.16.3
+[debug] [2020-06-02T19:43:05.633Z] Time:          Tue Jun 02 2020 19:43:05 GMT+0000 (Greenwich Mean Time)
+[debug] [2020-06-02T19:43:05.634Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T19:43:05.634Z] 
+[debug] [2020-06-02T19:43:05.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-02T19:43:05.655Z] > authorizing via signed-in user
+[debug] [2020-06-02T19:43:05.655Z] [iam] checking project justice-selorm-bruce-portfolio for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-06-02T19:43:05.662Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-02T19:43:05.663Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-02T19:44:17.001Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 02 Jun 2020 19:43:27 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-06-02T19:44:17.024Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/justice-selorm-bruce-portfolio:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-06-02T19:44:28.504Z] [iam] error while checking permissions, command may fail: FirebaseError: Server Error. getaddrinfo ENOTFOUND cloudresourcemanager.googleapis.com
+[debug] [2020-06-02T19:44:28.510Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/justice-selorm-bruce-portfolio  
+ 
+[debug] [2020-06-02T19:44:28.522Z] Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2020-06-02T19:44:28.558Z] FirebaseError: Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com
+    at Request._callback (C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:32:31)
+    at self.callback (C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:310:20)
+    at Request.EventEmitter.emit (domain.js:482:12)
+    at Request.onRequestError (C:\Users\HP-ENVY\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:322:22)
+    at ClientRequest.EventEmitter.emit (domain.js:482:12)
+    at TLSSocket.socketErrorListener (_http_client.js:426:9)
+    at TLSSocket.emit (events.js:310:20)
+    at TLSSocket.EventEmitter.emit (domain.js:482:12)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21)
+[error] 
+[error] Error: Failed to get Firebase project justice-selorm-bruce-portfolio. Please make sure the project exists and your account has permission to access it.
