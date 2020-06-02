@@ -4,123 +4,36 @@
   </h1>
 </div>
 
-<div class="row no-gutters">
-  <div class="col-lg-6 col-md-6 col-sm-12">
+<div class="row pb-lg-5 ">
+  <div class="col-lg-5 col-md-5 col-sm-12">
     <div class="row">
       <div class="col-lg-2 col-md-2 col-sm-0"></div>
-      <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">
-    <div fxFlexAlign.fxFlexAlign.gt-sm="center">
-      <img mat-card-image [src]="bg" class="style-work-image" />
-    </div>
+      <div class="col-lg-10 col-md-10 col-sm-12 mx-3">
+        <div fxFlexAlign.fxFlexAlign.gt-sm="center">
+          <img mat-card-image [src]="bg" class="style-work-image" />
+        </div>
       </div>
     </div>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 pt-lg-5 pt-md-5 pt-sm-0">
-    <p class="message-padding pt-lg-5 pt-md-4 pt-sm-1 mx-3">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum
-      dolor rem magni neque illo laudantium voluptate voluptates incidunt
-      ex? Quam eaque aliquam porro laboriosam quibusdam? Illo veritatis
-      maxime eum qui quibusdam error, numquam, tenetur ipsum facere porro
-      molestiae repudiandae similique earum. Cumque quam at nisi repudiandae
-      rem, hic ab sapiente, earum eum dolorum repellendus voluptatibus error
-      doloremque est vel. Odit molestias explicabo id expedita nemo eos
-      error nisi iste eligendi necessitatibus, ullam repudiandae perferendis
-      deserunt placeat illo rem quas.
+  <div class="col-lg-7 col-md-7 col-sm-12 pt-lg-5 pt-md-5 pt-sm-0">
+
+    <p class="message-padding pt-sm-1 mx-3 card-text">
+      As a computer science major, I have had the opportunity to work with
+      several software companies. Starting from my internship to my current
+      employment state, I had the opportunity to work with Scynett Ghana, a
+      software development company in Koforidua Ghana where I worked for six
+      months as a back-end developer coding in .NET. Working as a back-end
+      developer, I also had the opportunity to write tests as well. In 2017, I
+      started a Startup (Jaynett) which is a software development hub for young
+      and upcoming developers and also providing software solutions to clients.
+      After I graduated from university, I had the opportunity to work as a
+      software engineer at the koforidua Technical University for my National
+      Service. I built and maintain existing university applications using Php
+      Laravel. I joined Mon and Associates Technology as a full-stack developer
+      and also double as a project Manager. At Mon and Associate Technology, I
+      have worked with Java, PHP Laravel, Angular, and Flutter for over a year
+      now.
     </p>
+
   </div>
 </div>
-
-
-
-<mat-card-content fxHide.gt-xs>
-  <mat-vertical-stepper [linear]="isLinear" #stepper>
-    <mat-step [stepControl]="firstFormGroup">
-      <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>Employments</ng-template>
-
-        <div>
-          <button mat-button matStepperNext>Next</button>
-        </div>
-      </form>
-    </mat-step>
-    <mat-step [stepControl]="firstFormGroup">
-      <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>National Service</ng-template>
-
-        <div>
-          <button mat-button matStepperNext>Next</button>
-        </div>
-      </form>
-    </mat-step>
-    <mat-step [stepControl]="firstFormGroup">
-      <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>Startups</ng-template>
-
-        <div>
-          <button mat-button matStepperNext>Next</button>
-        </div>
-      </form>
-    </mat-step>
-    <mat-step [stepControl]="secondFormGroup">
-      <form [formGroup]="secondFormGroup">
-        <ng-template matStepLabel>Internships</ng-template>
-
-        <div>
-          <mat-card>
-            <mat-card-content>
-              UI and Design
-            </mat-card-content>
-          </mat-card>
-        </div>
-      </form>
-    </mat-step>
-  </mat-vertical-stepper>
-</mat-card-content>
-<mat-card-content fxHide.xs="true">
-  <mat-horizontal-stepper [linear]="isLinear" #stepper>
-    <mat-step [stepControl]="firstFormGroup">
-      <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>Employment</ng-template>
-
-        <div>
-
-          <p>All</p>
-
-        </div>
-      </form>
-    </mat-step>
-    <mat-step [stepControl]="firstFormGroup">
-      <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>National Service</ng-template>
-
-        <div>
-
-          <p>Custom Software</p>
-
-        </div>
-      </form>
-    </mat-step>
-    <mat-step [stepControl]="firstFormGroup">
-      <form [formGroup]="firstFormGroup">
-        <ng-template matStepLabel>Startups</ng-template>
-
-        <div>
-
-          <p>Mobile Apps</p>
-
-        </div>
-      </form>
-    </mat-step>
-    <mat-step [stepControl]="secondFormGroup">
-      <form [formGroup]="secondFormGroup">
-        <ng-template matStepLabel>Intenships</ng-template>
-
-        <div>
-
-          <p>UI and Design</p>
-
-        </div>
-      </form>
-    </mat-step>
-  </mat-horizontal-stepper>
-</mat-card-content>

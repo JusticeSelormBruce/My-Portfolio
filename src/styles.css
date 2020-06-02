@@ -1,9 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+
 html,
 body {
   height: 100%;
   background-color: white;
+  font-size: small!important;
 }
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -110,6 +112,7 @@ body {
 
 p {
   text-align: justify;
+
 }
 
 h1 {

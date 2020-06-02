@@ -5,44 +5,47 @@
 </div>
 
 <div class="row no-gutters">
-  <div class="col-lg-6 col-md-6 col-sm-12" fxShow.lt-sm="true" fxHide.gt-sm="true">
+  <div
+    class="col-lg-6 col-md-6 col-sm-12"
+    fxShow.lt-sm="true"
+    fxHide.gt-sm="true"
+  >
     <div class="row">
       <div class="col-lg-2 col-md-2 col-sm-0"></div>
-      <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">
+      <div class="col-lg-10 col-md-10 col-sm-12 mx-3">
         <div fxFlexAlign.fxFlexAlign.gt-sm="center">
           <img mat-card-image [src]="bg" class="style-work-image" />
         </div>
       </div>
     </div>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 pt-lg-5 pt-md-5 pt-sm-0">
+
+  <div class="col-lg-7 col-md-7col-sm-12 pt-lg-5 pt-md-5 pt-sm-0">
+   <div class="jumbotron bg-light">
     <p class="message-padding pt-lg-5 pt-md-4 pt-sm-1 mx-3">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam rerum
-      dolor rem magni neque illo laudantium voluptate voluptates incidunt
-      ex? Quam eaque aliquam porro laboriosam quibusdam? Illo veritatis
-      maxime eum qui quibusdam error, numquam, tenetur ipsum facere porro
-      molestiae repudiandae similique earum. Cumque quam at nisi repudiandae
-      rem, hic ab sapiente, earum eum dolorum repellendus voluptatibus error
-      doloremque est vel. Odit molestias explicabo id expedita nemo eos
-      error nisi iste eligendi necessitatibus, ullam repudiandae perferendis
-      deserunt placeat illo rem quas.
+      Over the past five years as a software developer, I have had the
+      opportunity to be part of several projects, from enterprise applications
+      to client-based applications. I have worked on a variety of applications
+      ranging from web to mobile apps using a variety of evolving programming
+      technologies, tools as well as accepted industry-standard approach. Bellow
+      in the section is a list of projects I have worked on over the past years.
+      I have added respective links and Github repository links to each project.
+      Due to industry standard and security policy, I will not be allowed to add
+      or show some links.
     </p>
+   </div>
   </div>
-  <div class="col-lg-6 col-md-6 col-sm-12 hide" fxHide.lt-sm="true">
+  <div class="col-lg-5 col-md-5 col-sm-12 hide" fxHide.lt-sm="true">
     <div class="row">
       <div class="col-lg-2 col-md-2 col-sm-0"></div>
-      <div class="col-lg-10 col-md-10 col-sm-12 mx-3 ">
+      <div class="col-lg-10 col-md-10 col-sm-12 mx-3">
         <div fxFlexAlign.fxFlexAlign.gt-sm="center">
           <img mat-card-image [src]="bg" class="style-work-image" />
         </div>
       </div>
     </div>
   </div>
-
 </div>
-
-
-
 
 <mat-card-content fxHide.gt-xs>
   <mat-vertical-stepper [linear]="isLinear" #stepper>
@@ -51,7 +54,7 @@
         <ng-template matStepLabel>Institutional</ng-template>
 
         <div>
-          <button mat-button matStepperNext>Next</button>
+     <app-institutions></app-institutions>
         </div>
       </form>
     </mat-step>
@@ -89,18 +92,13 @@
   </mat-vertical-stepper>
 </mat-card-content>
 
-
 <mat-card-content fxHide.xs="true">
   <mat-horizontal-stepper [linear]="isLinear" #stepper>
     <mat-step [stepControl]="firstFormGroup">
       <form [formGroup]="firstFormGroup">
         <ng-template matStepLabel>Institutional</ng-template>
 
-        <div>
-
-          <p>All</p>
-
-        </div>
+        <app-institutions></app-institutions>
       </form>
     </mat-step>
     <mat-step [stepControl]="firstFormGroup">
@@ -108,9 +106,7 @@
         <ng-template matStepLabel>Organizational</ng-template>
 
         <div>
-
           <p>Custom Software</p>
-
         </div>
       </form>
     </mat-step>
@@ -119,9 +115,7 @@
         <ng-template matStepLabel>Clients</ng-template>
 
         <div>
-
           <p>Mobile Apps</p>
-
         </div>
       </form>
     </mat-step>
@@ -130,9 +124,7 @@
         <ng-template matStepLabel>Personal</ng-template>
 
         <div>
-
           <p>UI and Design</p>
-
         </div>
       </form>
     </mat-step>

@@ -24,6 +24,7 @@ import { SkillsComponent } from './models/skills/skills.component';
 import { ToolsComponent } from './models/tools/tools.component';
 import { RepositoryComponent } from './models/repository/repository.component';
 import { ContactComponent } from './models/contact/contact.component';
+import { InstitutionsComponent } from './carousel/institutions/institutions.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { ContactComponent } from './models/contact/contact.component';
     SkillsComponent,
     ToolsComponent,
     RepositoryComponent,
-    ContactComponent
+    ContactComponent,
+    InstitutionsComponent
   ],
   imports: [
 
